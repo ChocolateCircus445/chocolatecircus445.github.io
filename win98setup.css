@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'TahomaPixel';
+  src: url(Win95/w95fa.woff2);
+}
+
+body {
+  background-image: url(bgpattern.png);
+  background-repeat: repeat;
+}
+
+button {
+  outline: none;
+}
+
+img {
+  user-select: none;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.slide {
+  max-height: 210px;
+  min-height: 210px;
+}
+
+div.sidebar {
+  width: 220px;
+  height: calc(100% - 100px);
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 100px;
+  padding-left: 48px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+div.i {
+  display: none;
+}
+
+p.step {
+  padding-bottom: 24px;
+  margin: 0;
+  margin-right: 19px;
+}
+
+p.current {
+  color: yellow;
+  font-weight: bold;
+}
+
+div.main {
+  position: absolute;
+  left: 268;
+  top: 0;
+  height: 100%;
+  width: calc(100% - 268px);
+}
+
+div.body {
+  padding-left: 64px;
+  padding-right: 64px;
+  min-height: 50%;
+  overflow-y: auto;
+}
+
+div.buttons {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+img[src="line.png"] {
+  width: 100%;
+  height: 4px;
+  padding-bottom: 14px;
+  padding-top: 19px;
+}
+
+.right {
+  float: right;
+}
+
+button.w98 {
+  font-family: 'TahomaPixel';
+  background-color: #c0c0c0;
+  border-style: outset;
+  border-color: white;
+  border-width: 3px;
+  font-size: 18px;
+  box-shadow: black 0px 0px 0px 1px;
+  border-radius: 1px;
+
+  padding-top: 3px;
+  padding-bottom:3px;
+  /*
+  padding-left: 36px;
+  padding-right: 36px;*/
+  min-width: 102px;
+}
+
+button.default {
+  box-shadow: black 0px 0px 0px 2px;
+}
+
+button.disabled {
+  color: #808080;
+}
+
+div.window {
+  font-family: 'TahomaPixel';
+  font-size: 18px;
+  background-color: #c0c0c0;
+  box-shadow:
+    #808080 0px 0px 0px 1px,
+    black 1px 0px 0px 1px,
+    black 0px 1px 0px 1px;
+  border-style: outset;
+  border-color: white;
+  min-width: 400px;
+  min-height: 70%;
+  padding-top: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  width: 97%;
+  margin: auto;
+}
+
+div.titlebar {
+  background-color: #000080;
+  /*
+  padding-top: 8px;
+  padding-bottom: 8px;*/
+  text-align: center;
+  font-family: 'TahomaPixel';
+  font-weight: bold;
+  color: white;
+  display: block;
+  border-style: inset;
+  border-color: white;
+}
