@@ -85,3 +85,15 @@ function retractSlide() {
     document.getElementById("next").className = "w98 right";
   }
 }
+
+function jump(slide) {
+  c_slide = document.querySelector("[data-slide='" + slide_number + "']");
+  c_slide.className = "slide i";
+  if (slide == 0) {
+    slide_number = 1
+    retractSlide()
+  } else {
+    slide_number = slide - 1
+    advanceSlide()
+  }
+}

@@ -44,9 +44,10 @@ div.i {
 }
 
 p.step {
-  padding-bottom: 24px;
   margin: 0;
+  margin-bottom: 24px;
   margin-right: 19px;
+  cursor: pointer;
 }
 
 p.current {
