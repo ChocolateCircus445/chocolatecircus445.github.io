@@ -48,6 +48,7 @@ p.step {
   margin-bottom: 24px;
   margin-right: 19px;
   cursor: pointer;
+  user-select: none;
 }
 
 p.current {
